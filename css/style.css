@@ -56,3 +56,34 @@
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  label {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  button {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  label[for="image"] {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .skip {
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    background: yellow;
+    overflow: hidden;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+  .skip:focus {
+      top: 20px;
+  }
